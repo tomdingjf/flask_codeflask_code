@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="panel panel-default">
+      <div class="panel-heading">新建订单</div>
+      <div class="panel-body">
+        <form class="form-inline" method="post">
+              <div class="form-group">
+                <label>URL:</label>
+                <input type="text" class="form-control" name="url" placeholder="http://www.xxx.com">
+              </div>
+              <div class="form-group">
+                <label>数量:</label>
+                <input type="text" class="form-control" name="count" placeholder="1-100">
+              </div>
+              <button type="submit" class="btn btn-success">提交订单</button>
+        </form>
+      </div>
+    </div>
+{% endblock %}
