@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <div class="panel panel-default">
+          <div class="panel-heading">用户创建</div>
+          <div class="panel-body">
+              <form class="form-inline" method="post">
+              <div class="form-group">
+                <label>手机:</label>
+                <input type="text" class="form-control" name="mobile" placeholder="13XXXXXXXXX">
+              </div><br><br>
+              <div class="form-group">
+                <label>密码:</label>
+                <input type="text" class="form-control" name="password" placeholder="最少6位数">
+              </div><br><br>
+              <div class="form-group">
+                <label>姓名:</label>
+                <input type="text" class="form-control" name="real_name" placeholder="请准确填写">
+              </div><br><br>
+              <div class="form-group">
+                <label>角色:</label>
+                <input type="text" class="form-control" name="role" placeholder="用户:1 ; 管理员:2">
+              </div><br><br>
+
+              <button type="submit" class="btn btn-success">提交订单</button>
+        </form>
+          </div>
+    </div>
+
+{% endblock %}

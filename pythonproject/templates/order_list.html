@@ -1,12 +1,16 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-    <div style="margin-bottom:10px">
+
+    <div class="panel panel-default">
+          <div class="panel-heading">用户订单</div>
+          <div class="panel-body">
+                  <div style="margin-bottom:10px">
         <a type="button" href="/order/create" class="btn btn-success">
             <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>添加订单
         </a>
     </div>
-    <table class="table table-striped" border="1">
+            <table class="table table-striped" border="1">
         <thead>
         <tr>
             <th>id</th>
@@ -32,6 +36,10 @@
 
         </tbody>
     </table>
+          </div>
+    </div>
+
+
 {% endblock %}
 
 

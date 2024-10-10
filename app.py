@@ -21,4 +21,4 @@ sql文件执行 dump-day21-202410100821.sql
 app = create_app()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8000,debug=True)

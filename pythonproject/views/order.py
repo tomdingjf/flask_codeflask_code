@@ -42,6 +42,9 @@ def create_list():
     print(request.form)
     url = request.form.get('url')
     count = request.form.get('count')
+
+    if not url or not count:
+        return render_template('order_create.html')
     print(url, count)
 
     user_id = session.get('user_info')['id']
@@ -53,9 +56,6 @@ def create_list():
     cache.push_queue(insert_id)
 
     return redirect('/order/list')
-
-
-#   写redis队列
 
 
 @od.route('/order/userinfo')
@@ -76,3 +76,33 @@ def delete_list():
 
         print(f"userinfo_用户:{userinfo}")
         return render_template('userinfo.html', userinfo=userinfo)
+
+
+@od.route('/order/createuser', methods=['GET', 'POST'])
+def create_user():
+    my_role = session.get('user_info')['role']
+    if my_role != 2:
+        print(f"您的角色是：客户,无法添再加账户")
+        text = "您的角色是：客户,无法添再加账户"
+        # return redirect('/order/userinfo')
+        return render_template('user_result.html', text=text)
+
+    if request.method == 'GET':
+        return render_template('create_user.html')
+    print(f"request.form:{request.form}")
+
+    # 获取输入的数据
+    my_mobile = request.form.get('mobile')
+    my_password = request.form.get('password')
+    my_real_name = request.form.get('real_name')
+    my_role = request.form.get('role')
+    print(my_mobile, my_password, my_real_name, my_role)
+
+    # 添加到数据库
+    if my_mobile and my_password and my_real_name and my_role:
+        params = [my_mobile, my_password, my_real_name, my_role]
+        insert_user = db.insert("insert into userinfo (mobile,password,real_name,role) values(%s,%s,%s,%s)", params)
+        print(insert_user)
+        return redirect('/order/userinfo')
+    else:
+        return render_template('create_user.html')
