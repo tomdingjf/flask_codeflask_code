@@ -4,47 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b2f6d1-9ed1-4272-b972-23b98ad01fcc" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flask_code_v1.0.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dump-day21-202410100821.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/static/jquery-3.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/order_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/userinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/views/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/views/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/worker.py" afterDir="false" />
+    <list default="true" id="27b2f6d1-9ed1-4272-b972-23b98ad01fcc" name="更改" comment="ding">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,9 +114,20 @@
       <option name="presentableId" value="Default" />
       <updated>1728518188377</updated>
     </task>
+    <task id="LOCAL-00001" summary="ding">
+      <option name="closed" value="true" />
+      <created>1728520889284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728520889284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ding" />
+    <option name="LAST_COMMIT_MESSAGE" value="ding" />
   </component>
 </project>
