@@ -2,9 +2,6 @@ import pymysql
 from dbutils.pooled_db import PooledDB
 from pymysql import cursors
 
-
-
-
 POOL = PooledDB(creator=pymysql,  # 指定数据库连接器
                 mincached=2,  # 连接池中初始最少空闲连接数
                 maxcached=10,  # 连接池中最多空闲连接数

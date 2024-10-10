@@ -2,7 +2,7 @@
 
 import redis
 
-# 需要下载redis
+# 需要下载 redis
 
 '''
 教学：

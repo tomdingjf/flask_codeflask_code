@@ -60,13 +60,19 @@ def create_list():
 
 @od.route('/order/userinfo')
 def delete_list():
-    print(f"角色是：{session.get('user_info')['role']}")
     # 判断是否为管理员
     my_role = session.get('user_info')['role']
-    print(f"my_role:{my_role}")
+    print(f"角色是：{my_role}")
+
+    my_id = session.get('user_info')['id']
+    print(f"您的id是：{my_id}")
+
     if my_role == 2:
         userinfo = db.fetch_all("select * from userinfo", [])
-        print(f"userinfo:{userinfo}")
+        print(f"userinfo_管理员:{userinfo}")
         return render_template('userinfo.html', userinfo=userinfo)
     else:
-        return "无访问权限"
+        userinfo = [db.fetch_one("select * from userinfo where userinfo.id = %s  ", [my_id])]
+
+        print(f"userinfo_用户:{userinfo}")
+        return render_template('userinfo.html', userinfo=userinfo)
