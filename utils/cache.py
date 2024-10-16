@@ -18,6 +18,10 @@ cmd配置：
     OK
     127.0.0.1:6379> get name
     "flove"
+    127.0.0.1:6379> set key flove
+    OK
+    127.0.0.1:6379> get key
+    "flove"
     127.0.0.1:6379> config set requirepass 123456
     OK
     127.0.0.1:6379> get name

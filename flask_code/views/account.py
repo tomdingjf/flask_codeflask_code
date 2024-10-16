@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, redirect, session
+from flask import Blueprint, render_template, request, redirect, session, jsonify
 from utils import db
 
 ac = Blueprint('account', __name__)
@@ -37,9 +37,25 @@ def login():
     return render_template('login.html', error='用户名或密码错误')
 
 
-@ac.route('/users')
-def users():
-    return '用户'
+@ac.route('/send_verification_code', methods=['get', 'POST'])
+def send_verification_code():
+    print(request.method)
+    if request.method == 'GET':
+        return render_template('index.html')
+    data = request.get_json()
+    # print(data)
+    # email = data.get('email_code')
+
+    # 在这里编写发送验证码的逻辑
+    # send_email = SendEmail(to_email_address=email, subject='验证码', body='这是python发送的测试邮件:')
+    #
+    # send_email.send_email()
+    # # 返回成功响应
+    email = request.form.get('email')
+
+    print(f'myemail{email}')
+
+    return jsonify({'message': '验证码已发送'})
 
 
 @ac.route('/')

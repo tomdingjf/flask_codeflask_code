@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <title>发送验证码</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      margin: 50px auto;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #5cb85c;
+      color: white;
+      border: none;
+    }
+
+    .container h2 {
+      text-align: center;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // 确保按钮完全加载后再绑定事件
+      const sendVerificationButton = document.getElementById('send-verification');
+      if (sendVerificationButton) {
+        sendVerificationButton.addEventListener('click', function () {
+          const email = document.getElementById('email').value;
+          if (validateEmail(email)) {
+            sendVerificationCode(email);
+          } else {
+            alert('请输入有效的邮箱地址');
+          }
+        });
+      }
+    });
+
+    function validateEmail(email) {
+      // 基本的邮箱格式验证
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+    }
+
+    async function sendVerificationCode(email) {
+      try {
+        const response = await fetch('/register', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-Token': 'your_csrf_token_here' // 添加 CSRF 令牌
+          },
+          body: JSON.stringify({
+            email_code: email
+          })
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          console.log(data);
+          alert('验证码已发送');
+        } else {
+          const errorData = await response.json(); // 获取具体的错误信息
+          console.error('请求失败:', response.status, errorData);
+          alert('发送验证码失败，请检查您的邮箱是否正确');
+        }
+      } catch (error) {
+        console.error('请求错误:', error);
+        alert('发送验证码失败，请稍后再试');
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h2 class="center-text">用户注册</h2>
+    <form method="post">
+      <input type="hidden" name="csrf_token" value="your_csrf_token_here">
+      <div class="form-group">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">邮箱地址:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="button" id="send-verification">发送验证码</button>
+      </div>
+
+      <div class="form-group">
+        <label for="verification-code">验证码:</label>
+        <input type="text" id="verification-code" name="verification-code" required>
+      </div>
+      <div class="form-group">
+        <label for="password">密码:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm_password">确认密码:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+      </div>
+      <button type="submit">注册</button>
+    </form>
+  </div>
+
+</body>
+
+</html>

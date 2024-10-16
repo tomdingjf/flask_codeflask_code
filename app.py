@@ -1,4 +1,4 @@
-from pythonproject import create_app
+from flask_code import create_app
 
 '''
 输出环境 requirements.txt
@@ -21,4 +21,4 @@ sql文件执行 dump-day21-202410100821.sql
 app = create_app()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=8000,debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)

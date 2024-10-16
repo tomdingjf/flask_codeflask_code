@@ -46,3 +46,12 @@ def insert(sql, params):
     coon.close()  # 将此链接交还给连接连接池
     insert_id = cursor.lastrowid
     return insert_id
+
+
+def delete_data(sql, params):
+    coon = POOL.connection()
+    cursor = coon.cursor(cursor=cursors.DictCursor)
+    cursor.execute(sql, params)
+    coon.commit()
+    cursor.close()
+    coon.close()  # 将此链接交还给连接连接池

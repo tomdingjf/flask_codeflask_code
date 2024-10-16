@@ -5,13 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27b2f6d1-9ed1-4272-b972-23b98ad01fcc" name="更改" comment="ding">
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/create_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythonproject/templates/user_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/Scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.venv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_code/templates/delete_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_code/templates/getnovel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_code/templates/order_novel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_code/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_code/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/getnovel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flask_code_v1.0.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_code_v1.0.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonproject/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/templates/order_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonproject/templates/userinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/templates/userinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonproject/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonproject/views/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist.zip" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/bootstrap-3.4.1-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/bootstrap-3.4.1-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/static/jquery-3.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/static/jquery-3.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/create_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/create_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/order_create.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/order_create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/order_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/user_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/user_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/templates/userinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/templates/userinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/views/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonproject/views/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_code/views/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +63,37 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tomdingjf&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3053399b-d95e-478b-b20d-af261fa20a3c" />
+        <option name="url" value="https://github.com/tomdingjf/flask_codeflask_code.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2nDqqvncheYAGByjrKHQ2Fvle2n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,19 +102,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.order.executor": "Run",
-    "Python.worker.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/worker/flask_code_v1.0.1/pythonproject/static"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.order.executor&quot;: &quot;Run&quot;,
+    &quot;Python.worker.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebCode/send_email&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\worker\flask_code_v1.0.1\pythonproject\static" />
@@ -61,10 +131,9 @@
       <recent name="D:\worker\flask_code_v1.0.1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.worker">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_code_v1.0.1" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,7 +144,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="order (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_code_v1.0.1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_code/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_code/views/order.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +178,6 @@
     </configuration>
     <configuration name="order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_code_v1.0.1" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -97,6 +188,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pythonproject/views/order.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -108,7 +200,6 @@
     </configuration>
     <configuration name="worker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_code_v1.0.1" />
-      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -119,6 +210,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/worker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -130,8 +222,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.worker" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.order (1)" />
+        <item itemvalue="Python.worker" />
         <item itemvalue="Python.order" />
       </list>
     </recent_temporary>
@@ -151,6 +244,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728518188377</updated>
+      <workItem from="1728609873888" duration="1534000" />
+      <workItem from="1728611506560" duration="123000" />
+      <workItem from="1728624047715" duration="87000" />
+      <workItem from="1729041188882" duration="562000" />
+      <workItem from="1729051241572" duration="111000" />
+      <workItem from="1729051367127" duration="49000" />
+      <workItem from="1729051423799" duration="11000" />
+      <workItem from="1729058196109" duration="2119000" />
+      <workItem from="1729060419494" duration="5000" />
+      <workItem from="1729060432660" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="ding">
       <option name="closed" value="true" />
@@ -176,12 +279,28 @@
       <option name="project" value="LOCAL" />
       <updated>1728523059958</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ding">
+      <option name="closed" value="true" />
+      <created>1728531131000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728531131000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ding" />
     <option name="LAST_COMMIT_MESSAGE" value="ding" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/app_py$worker.coverage" NAME="worker 覆盖结果" MODIFIED="1728610313717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/app_py$order__1_.coverage" NAME="order (1) 覆盖结果" MODIFIED="1729058958668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_code/views" />
+    <SUITE FILE_PATH="coverage/app_py$app.coverage" NAME="app 覆盖结果" MODIFIED="1729060213557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
